@@ -1,0 +1,97 @@
+.personalCardContainer{
+    width: 100%;
+    background-color: white;
+    margin: 4em auto;
+    margin-bottom: 0em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2.5em solid #fbfbfb;
+    padding: 1em 2em;
+}
+
+.imagePersonal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30em;
+}
+
+.personalCardContainer img{
+    width: 25em;
+    filter: grayscale(100%);
+    transition: 2s;
+}
+
+.personalCardContainer img:hover{
+    filter: grayscale(0%);
+}
+
+.infoPersonal{
+   display: flex;
+   flex-direction: column;
+   width: 40em;
+   gap: 1em;
+}
+
+.infoPersonal .title{
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 35px 1px #e9e9e9;
+}
+
+.infoPersonal .title h3{
+    font-size: 2.5em;
+    font-family: "Roboto Slab", serif;
+    color: #484848;
+    font-weight: 900;
+}
+
+.underline1 {
+    height: 2px;
+    width: 100px;
+    background-color: #efd236;
+    margin-top: 1.1em;
+    position: relative;
+  }
+  .underline2 {
+    height: 10px;
+    width: 10px;
+    background-color: #efd236;
+    margin-top: -6px;
+    transform: rotate(-135deg);
+  }
+
+.infoPersonal p{
+    font-size: 1.1em;
+    line-height: 1.3em;
+    letter-spacing: 0.1em;
+    color: #272727;
+    padding-right: 2em;
+    margin: 1em 15px;
+    margin-bottom: 0px;
+}
+
+.buttonsToPersonal {
+    display: flex;
+    gap: 10px;
+
+}
+
+.buttonsToPersonal a{
+    color: black;
+    text-decoration: none;
+    padding: 1em;
+    box-shadow: 0px 0px 35px 0px #dad9d9;
+    border-radius: 10px;
+    margin-right: 2em;
+    transition: 1s;
+    background: linear-gradient(to left, white 50%, #efd236 50%) right;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+
+.buttonsToPersonal a:hover{
+    background-position: left;
+}

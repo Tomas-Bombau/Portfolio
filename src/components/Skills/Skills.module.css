@@ -1,0 +1,16 @@
+.skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.skills > img{
+    width: 4em;
+}
+  
+.skills img:hover{
+    scale: 1.1;
+    transition-duration: 0.5s;
+}

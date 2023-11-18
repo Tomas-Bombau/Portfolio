@@ -1,0 +1,56 @@
+.sectionContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.infoContact{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    justify-content: center;
+    width: 100%;
+    gap: 2em;
+}
+
+.formContainer input{
+    padding: 1em;
+    font-size: 1em;
+}
+
+textarea{
+    padding: 1em;
+    padding-bottom: 2em;
+    font-size: 1em;
+}
+
+.formContainer .button{
+    font-size: 1.1em;
+    border-radius: 10px;
+    box-shadow: 2px 1px 5px #000000;
+    align-self: center;
+    font-weight: 700;
+    text-align: center;
+    width: 10%;
+    padding: 0.5em 0em;
+    background: linear-gradient(to left, white 50%, #efd236 50%) right;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-position: left;
+}
+
+.success{
+    margin-top: -4em;
+}
+
