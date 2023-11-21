@@ -20,7 +20,7 @@ const PersonalCard = () => {
           from small business sites to rich interactive web apps. if you are a
           business seeking a web presence or an employer looking to hire, you
           can get in touch with me{" "}
-          <a className="underline2" href="#contact">
+          <a className={s.linked} href="#contact">
             {" "}
             here.
           </a>{" "}

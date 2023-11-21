@@ -66,7 +66,7 @@ const contact = [
     image: email,
     title: "Have a question?",
     description: "I am here to help you. ",
-    phrase: "Complete the form below."
+    phrase: "Complete the form below and get in touch"
   },
 
 ];

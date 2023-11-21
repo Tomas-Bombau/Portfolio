@@ -15,7 +15,7 @@
 }
 
 .projectsInfo h3{
-    color: #484848;
+    color: white;
     font-size: 1.8em;
     letter-spacing: 0.1em;
 }
@@ -34,7 +34,7 @@
 }
 
 .projectsInfo p{
-    color: #272727;
+    color: white;
     font-size: 1.2em;
 }
 
@@ -46,11 +46,9 @@
 .projectsImg img{
     width: 30em;
     border-radius: 5em;
-    filter: grayscale(50%);
 }
 
 .projectsCardContainer img:hover{
-    filter: grayscale(0%);
     cursor: pointer;
 }
 
@@ -90,13 +88,13 @@
 }
 
 .projectsInfoLeft h3{
-    color: #484848;
+    color: white;
     font-size: 1.8em;
     letter-spacing: 0.1em;
 }
 
 .projectsInfoLeft p{
-    color: #272727;
+    color: white;
     font-size: 1.2em;
 }
 

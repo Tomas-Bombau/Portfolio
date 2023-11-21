@@ -15,9 +15,9 @@ import Welcome from "../Welcome/Welcome";
 
 const Main = () => {
   return (
-    <main>
+    <main className={s.main}>
       <ScrollButton />
-      <section>
+      <section id="home">
         <Welcome />
       </section>
       <section id="about" className={s.backgroundSecondSection}>

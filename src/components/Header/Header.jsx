@@ -7,6 +7,9 @@ const Header = () => {
     <nav className={s.navBar}>
       <div className={s.navTags}>
         <ul>
+        <li>
+            <a href="/#home">Home</a>
+          </li>
           <li>
             <a href="/#about">About</a>
           </li>
