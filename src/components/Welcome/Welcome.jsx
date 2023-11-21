@@ -15,7 +15,7 @@ const Welcome = () => {
           <h1>Tomas Bombau</h1>
         </div>
         <div>
-          <h2>Full Stack Developer and Social Communicator</h2>
+          <h2>Full Stack Developer</h2>
         </div>
         <p>
           I'm 33 years old, and I live in Buenos Aires, Argentina. I have a

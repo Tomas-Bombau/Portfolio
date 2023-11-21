@@ -4,22 +4,31 @@ import imgDeploy from "../../assets/deploy.png";
 
 const Projects = (props) => {
   const { id, title, description, tecnologies, image, deploy } = props;
-  console.log(id)
+  console.log(id);
   return (
-    
-    <div className={id % 2 != 0 ? s.projectsCardContainer : s.projectsCardContainerLeft}>
+    <div
+      className={
+        id % 2 != 0 ? s.projectsCardContainer : s.projectsCardContainerLeft
+      }
+    >
       <div className={id % 2 != 0 ? s.projectsInfo : s.projectsInfoLeft}>
-        <h3>{title}</h3>
-        <div className={s.underline1}></div>
-        <div className={s.underline2}></div>
+        <div>
+          <h3>{title}</h3>
+          <div className={s.underline1}></div>
+          <div className={s.underline2}></div>
+        </div>
         <p>{description}</p>
         <p>{tecnologies}</p>
         <div className={id % 2 != 0 ? s.deploy : s.deployLeft}>
-          <a href={deploy}><img src={imgDeploy} alt="deploy" /></a>
+          <a href={deploy}>
+            <img src={imgDeploy} alt="deploy" />
+          </a>
         </div>
       </div>
       <div className={s.projectsImg}>
-        <a href={deploy}><img src={image} alt="" /></a>
+        <a href={deploy}>
+          <img src={image} alt="deploy-icon" />
+        </a>
       </div>
     </div>
   );

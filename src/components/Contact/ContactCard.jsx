@@ -10,7 +10,10 @@ const ContactCard = (props) => {
       </div>
       <h3>{title}</h3>
       <p>
-        {description} <br /> <span>{phrase} </span>
+        {description}{" "}
+        <div className={s.orientation}>
+          <span >{phrase} </span>
+        </div>
       </p>
     </div>
   );

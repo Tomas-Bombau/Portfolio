@@ -25,12 +25,13 @@
 }
 
 .contactCard p{
-    color: white;
+    color: rgb(220, 215, 215);
     font-size: 1.1em;
     line-height: 1.3em;
 }
 
-.contactCard p span{
+.contactCard .orientation{
+    margin-top: 0.5em;
     color: #efd236;
     font-weight: 600;
 }
@@ -50,7 +51,7 @@
         }
         & p span{
             transition: 2s;
-            color: #0a192f
+            color: rgba(205, 40, 122);
         }
         & h3{
             transition: 2s;

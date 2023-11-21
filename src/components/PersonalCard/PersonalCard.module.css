@@ -1,12 +1,13 @@
 .personalCardContainer{
     width: 100%;
     background-color: #0a192f;
-    margin: 4em auto;
-    margin-bottom: 0em;
+    margin: 0em auto;
+    margin-bottom: 4em;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
-    padding: 1em 2em;
     color: white;
 }
 
@@ -29,13 +30,16 @@
 .infoPersonal{
    display: flex;
    flex-direction: column;
+   justify-content: center;
    width: 40em;
    gap: 1em;
 }
 
 .infoPersonal .title{
+    display: flex;
+    flex-direction: column;
     background-color: #0a192f;
-    padding: 2em 0em;
+    padding: 1em 0em;
     border-radius: 10px;
 }
 
@@ -53,13 +57,14 @@
     margin-top: 1.1em;
     position: relative;
   }
-  .underline2 {
+
+.underline2 {
     height: 10px;
     width: 10px;
     background-color: #efd236;
     margin-top: -6px;
     transform: rotate(-135deg);
-  }
+}
 
 .linked{
     text-decoration: none;
@@ -68,18 +73,16 @@
 
 .infoPersonal p{
     font-size: 1.1em;
-    line-height: 1.3em;
+    line-height: 1em;
     letter-spacing: 0.1em;
-    color: white;
+    color: rgb(220, 215, 215);
     padding-right: 2em;
-    margin: 1em 0px;
-    margin-bottom: 0px;
+    margin-bottom: 1em;
 }
 
 .buttonsToPersonal {
     display: flex;
     gap: 10px;
-
 }
 
 .buttonsToPersonal a{
@@ -87,7 +90,6 @@
     text-decoration: none;
     padding: 0.7em;
     border-radius: 10px;
-    margin-right: 2em;
     transition: 1s;
     background: linear-gradient(to left, white 50%, #efd236 50%) right;
     background-size: 200%;
@@ -96,4 +98,61 @@
 
 .buttonsToPersonal a:hover{
     background-position: left;
+}
+
+@media (max-width: 1870px){
+    .personalCardContainer img{
+        border-radius: 0.5em;
+        width: 30em;
+    }
+
+    .infoPersonal{
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2em;
+    }
+
+    .infoPersonal .title h3{
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .infoPersonal p{
+        text-align: center;
+        padding: 0px;
+        font-size: 1.2em;
+    }
+
+    .buttonsToPersonal{
+        justify-content: center;
+    }
+
+    .buttonsToPersonal a{
+        padding: 1em;
+    }
+}
+
+@media (max-width: 750px){
+    .personalCardContainer{
+        width: 100%;
+        margin: 0px 0px;
+    }
+    .personalCardContainer img{
+        border-radius: 0.5em;
+        width: 100%;
+    }
+
+    .infoPersonal .title h3{
+        font-size: 2em;
+    }
+
+    .infoPersonal p{
+        width: 100%;
+        font-size: 1.1em;
+    }
+
+    .buttonsToPersonal{
+        margin: 0px 0px;
+        justify-content: space-evenly;
+    }
 }

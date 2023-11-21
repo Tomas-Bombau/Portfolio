@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 8em;
 }
@@ -76,7 +76,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 4em;
 }
@@ -94,7 +94,7 @@
 }
 
 .projectsInfoLeft p{
-    color: white;
+    color: rgb(220, 215, 215);
     font-size: 1.2em;
 }
 
@@ -118,7 +118,97 @@
     transform: rotate(180deg);
 }
 
-.projectsCardContainerLeft img:hover{
-    filter: grayscale(0%);
-    cursor: pointer;
+
+@media (max-width: 1475px){
+    .projectsCardContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projectsInfo{
+        gap: 1em;
+    }
+
+    .projectsInfo p:first-of-type{
+        width: 30em;
+        margin: 0;
+        font-size: 1.2em;
+    }
+
+    .deploy{
+        display: none;
+    }
+
+    .projectsImg{
+        margin-top: 1em;
+    }
+
+    .projectsImg img{
+        width: 37em;
+        border-radius: 0px;
+    }
+
+    .projectsCardContainerLeft{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .projectsInfoLeft{
+        margin-right: -12em;
+        gap: 1em;
+    }
+
+    .deployLeft{
+        display: none;
+    }
+
+    .projectsInfoLeft p:first-of-type{
+        width: 30em;
+        margin: 0;
+        font-size: 1.2em;
+    }
+
+    .projectsInfoLeft{
+        margin-top: 1em;
+        margin-left: -12em;
+    }
+}
+
+
+@media (max-width: 1000px){
+    .projectsInfoLeft{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .projectsInfo p:first-of-type{
+        width: 100%;
+        margin: 0;
+        font-size: 1.2em;
+    }
+
+    .projectsInfoLeft p:first-of-type{
+        width: 100%;
+        margin: 0;
+        font-size: 1.2em;
+    }
+
+    .deploy{
+        display:inline;
+        align-self: flex-start;
+        transform: rotate(-90deg);
+    }
+
+    .deployLeft{
+        display: flex;
+        align-self: flex-end;
+        transform: rotate(90deg);
+    } 
+
+    .projectsImg{
+       display: none
+    }
+
 }
