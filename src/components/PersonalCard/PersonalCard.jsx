@@ -1,13 +1,13 @@
 //assets
 import s from "./PersonalCard.module.css";
-import me from '../../assets/man.jpg'
 import cv from "../../assets/cv/CV.pdf";
+import tomas from "../../assets/me.jpg"
 
 const PersonalCard = () => {
   return (
     <div className={s.personalCardContainer}>
       <div className={s.imagePersonal}>
-        <img src={me} alt="my-photo" />
+        <img src={tomas} alt="my-photo" />
       </div>
       <div className={s.infoPersonal}>
         <div className={s.title}>
