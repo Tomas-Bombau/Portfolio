@@ -17,7 +17,7 @@ const PersonalCard = () => {
         </div>
         <div>
           <p>
-            I am a web developer from Kolkata, India. I enjoy building
+            I am a web developer from Buenos Aires, Argentina. I enjoy building
             everything from small business sites to rich interactive web apps.
             if you are a business seeking a web presence or an employer looking
             to hire, you can get in touch with me{" "}
