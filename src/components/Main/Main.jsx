@@ -1,9 +1,5 @@
-import React from "react";
 
-//assets
-import githublogo from "../../assets/githublogo.png";
-import linkedinlogo from "../../assets/linkedinlogo.png";
-import twitter from "../../assets/twitter.png";
+//CSS
 import s from "./Main.module.css";
 
 //data
@@ -15,39 +11,15 @@ import Skills from "../Skills/Skills";
 import ProjectsContainer from "../Projects/ProjectsContainer";
 import ScrollButton from "../ScrollButton/ScrollButton";
 import Contact from "../Contact/Contact";
+import Welcome from "../Welcome/Welcome";
 
 const Main = () => {
   return (
     <main>
       <ScrollButton />
-      <section className={s.backgroundFirstSection}>
-        <div className={s.headLine}>
-          <h1>Tomas Bombau</h1>
-        </div>
-        <div>
-          <ul className={s.socialPlatforms}>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/tom%C3%A1s-ignacio-bombau-049a52139/"
-                target="newtab"
-              >
-                <img src={linkedinlogo} alt="" />
-              </a>
-            </li>
-            <li className="wow fadeIn" data-wow-delay=".2s">
-              <a href="https://github.com/tomas-bombau" target="newtab">
-                <img src={githublogo} alt="" />
-              </a>
-            </li>
-            <li className="wow fadeIn" data-wow-delay=".8s">
-              <a href="https://twitter.com/tomibombau" target="newtab">
-                <img src={twitter} alt="" />
-              </a>
-            </li>
-          </ul>
-        </div>
+      <section>
+        <Welcome />
       </section>
-
       <section id="about" className={s.backgroundSecondSection}>
         <section className={s.myCompetences}>
           <PersonalCard />
