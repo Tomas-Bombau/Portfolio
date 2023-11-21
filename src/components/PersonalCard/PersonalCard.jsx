@@ -1,5 +1,5 @@
 //assets
-import me from "../../assets/man.jpg";
+import me from "../../assets/Man.jpg";
 import s from "./PersonalCard.module.css";
 import cv from "../../assets/cv/CV.pdf";
 
