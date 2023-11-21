@@ -22,7 +22,7 @@ const Welcome = () => {
           degree in Communication, and I am a Fullstack Programmer with a clear
           inclination towards Front-end development. I am motivated by
           understanding the user and providing design and navigability solutions
-          directly from the code. Everyday on this tech world has become a
+          directly from the code. Everyday on this tech world has become an
           opportunity to keep learning and improving my skills.
         </p>
         <div>
