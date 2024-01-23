@@ -4,7 +4,6 @@ import imgDeploy from "../../assets/deploy.png";
 
 const Projects = (props) => {
   const { id, title, description, tecnologies, image, deploy } = props;
-  console.log(id);
   return (
     <div
       className={

@@ -3,7 +3,7 @@ import design from "./assets/design.png";
 import teamwork from "./assets/teamwork.png";
 import programming from "./assets/programming.png";
 import dogsPI from "./assets/dogsPI.jpg";
-import ecommerce from "./assets/ecommerce.jpeg";
+import ecommerce from "./assets/ecommerce.jpg";
 import adress from "./assets/adress.png";
 import email from "./assets/email.png";
 
@@ -46,10 +46,10 @@ const projects = [
   {
     id: 2,
     image: ecommerce,
-    title: "E-Commmerce",
+    title: "Laura Vargas",
     description: "A collaborative Single Page Application (SPA) created as a group project, employing SCRUM methodology. My primary responsibility centered on the front-end, utilizing technologies such as React, Redux, and extensive CSS styling.",
-    tecnologies: "React, Redux, Express, PostgreSQL",
-    deploy: "https://www.google.com.ar"
+    tecnologies: "React-Redux, Tailwind, PostgreSQL",
+    deploy: "https://www.youtube.com/watch?v=rRU_QRKHRtI"
   },
 ];
 
