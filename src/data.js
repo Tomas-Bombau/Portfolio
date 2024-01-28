@@ -40,7 +40,7 @@ const projects = [
     image: dogsPI,
     title: "Dogs APP",
     description: "A Single Page Application (SPA) that consumes data from an external API, and allows general and detailed information of more 170 dog breed's to be displayed. Among the functionalities it allows filtering and ordering breeds by different variables. Users can also create theirs own breed.",
-    tecnologies: "React, Redux, Express, Node, PostgreSQL",
+    tecnologies: "React, Redux, Express, Node, Sequelize",
     deploy: "https://deploy-six-jet.vercel.app/"
   },
   {
@@ -48,7 +48,7 @@ const projects = [
     image: ecommerce,
     title: "Laura Vargas",
     description: "A collaborative Single Page Application (SPA) created as a group project, employing SCRUM methodology. My primary responsibility centered on the front-end, utilizing technologies such as React, Redux, and extensive CSS styling.",
-    tecnologies: "React-Redux, Tailwind, PostgreSQL",
+    tecnologies: "React, Redux, Tailwind",
     deploy: "https://www.youtube.com/watch?v=rRU_QRKHRtI"
   },
 ];

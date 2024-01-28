@@ -15,15 +15,10 @@ const Welcome = () => {
           <h1>Tomas Bombau</h1>
         </div>
         <div>
-          <h2>Full Stack Developer</h2>
+          <h2>Front End Developer</h2>
         </div>
         <p>
-          I'm 33 years old, and I live in Buenos Aires, Argentina. I have a
-          degree in Communication, and I am a Fullstack Programmer with a clear
-          inclination towards Front-end development. I am motivated by
-          understanding the user and providing design and navigability solutions
-          directly from the code. Everyday on this tech world has become an
-          opportunity to keep learning and improving my skills.
+        I'm 33 years old, living in Buenos Aires, Argentina, with a degree in Communication. I'm passionate about Front-end development, driven by understanding users and providing design and navigability solutions directly from the code. In addition to my love for the front end, I have a solid foundation in backend technologies such as Node.js, Express, and Sequelize. Every day in this tech world presents an opportunity for me to learn and enhance my skills.
         </p>
         <div>
           <ul className={s.socialPlatforms}>
